@@ -60,7 +60,7 @@ public class AppClinica {
         String dtNasc = sc.nextLine();
 
         int result = VetPaciente.insere(new Paciente(nome, cpf, dtNasc), vp);
-
+        
         if (result == 0) {
             return "- SUCESSO: Paciente cadastrado.";
         }
