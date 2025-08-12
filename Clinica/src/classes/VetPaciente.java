@@ -4,6 +4,9 @@ public class VetPaciente {
     private Paciente[] vet = new Paciente[2];
     private int quant = 0;
 
+    public VetPaciente() {
+    }
+
     public VetPaciente(Paciente[] vet) {
         this.vet = vet;
     }
